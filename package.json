@@ -1,0 +1,11 @@
+{
+  "name": "claude-chat-tagger",
+  "version": "1.0.0",
+  "description": "Tag and organize Claude chat conversations",
+  "scripts": {
+    "build": "if not exist dist mkdir dist && xcopy /E /I /Y extension\\* dist\\ && copy manifest.json dist\\ && copy popup.html dist\\ && copy popup.js dist\\ && copy background.js dist\\"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.10.0"
+  }
+}

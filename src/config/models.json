@@ -1,0 +1,29 @@
+{
+  "models": [
+    {
+      "name": "llama3.2:3b",
+      "displayName": "Llama 3.2 (3B)",
+      "description": "Fast and efficient 3B parameter model",
+      "contextWindow": 4096,
+      "recommended": true
+    },
+    {
+      "name": "mistral",
+      "displayName": "Mistral 7B",
+      "description": "Fast and accurate for general analysis",
+      "contextWindow": 8000,
+      "recommended": false
+    },
+    {
+      "name": "llama2",
+      "displayName": "Llama 2",
+      "description": "Larger model for more nuanced analysis",
+      "contextWindow": 4000,
+      "recommended": false
+    }
+  ],
+  "defaults": {
+    "temperature": 0.3,
+    "maxTokens": 100
+  }
+} 
